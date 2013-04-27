@@ -1,7 +1,3 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
 package minimum;
 
 /**
@@ -15,7 +11,8 @@ public class Main {
      */
     public static void main(String[] args) {
         //start frame
-        View app = new View();
+        @SuppressWarnings("unused")
+		View app = new View();
         
     }
     

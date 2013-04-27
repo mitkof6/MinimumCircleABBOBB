@@ -1,7 +1,3 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
 package minimum;
 
 import java.awt.Color;
@@ -18,7 +14,7 @@ public class View extends JFrame{
 	 * 
 	 */
 	private static final long serialVersionUID = 1L;
-	private static final int height = 800, width = 800;
+	private static final int height = 500, width = 500;
     
     public View(){
         super("View");
@@ -26,7 +22,7 @@ public class View extends JFrame{
         this.setBounds(10, 10, width, height);
         this.setBackground(Color.black);
         
-        Panel panel = new Panel(width-30, height-30);
+        Panel panel = new Panel(width, height);
         
         this.add(panel);
         this.setVisible(true);
